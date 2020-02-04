@@ -1,5 +1,5 @@
 pipeline {
-    agent august
+    agent any
 
     stages {
         stage('Build') {
