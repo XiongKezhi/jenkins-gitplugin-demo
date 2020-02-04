@@ -4,15 +4,15 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building HelloWorld.java..',
-                javac HelloWorld.java,
+                echo 'Building HelloWorld.java..'
+                javac HelloWorld.java
                 echo 'Build Success!'
             }
         }
         stage('Run') {
             steps {
-                echo 'Running HelloWorld.class..',
-                java HelloWorld,
+                echo 'Running HelloWorld.class..'
+                java HelloWorld
                 echo 'Running Success!'
             }
         }
