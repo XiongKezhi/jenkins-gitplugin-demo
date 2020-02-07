@@ -4,5 +4,6 @@ public class HelloWorld {
         System.out.println("Hello, Jenkins");
         System.out.println("Hello, August");
         System.out.println("Hello, Build");
+        System.out.println("Hello, Changes");
     }
 }
